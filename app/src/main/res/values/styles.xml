@@ -5,4 +5,14 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="UdaciousButton" parent="@android:style/Widget">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/udacious_orange</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:shadowColor">@android:color/darker_gray</item>
+        <item name="android:onClick">runSelectedApp</item>
+    </style>
+
 </resources>
